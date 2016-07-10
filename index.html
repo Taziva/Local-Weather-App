@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Local Weather App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 id="weatherApp-title">Local Weather App</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h1 id="clock"></h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h2 id="currentCity"></h2>
+      </div>
+      <div id="weatherIcon" class="col-md-12 center-block text-center">
+        <img id="icon" class="img-responsive" src="">
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-md-offset-5 text-center">
+          <h2 id="temp" class="celsius"></h2><span id="unit"><a id="tempUnitChange">&degC</a></span>
+          <h2 id="weatherReadings"> </h2>
+        </div>
+      </div>
+
+    </div>
+  </div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

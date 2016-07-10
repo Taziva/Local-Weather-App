@@ -1,0 +1,70 @@
+body {
+  background-color: #b499cb !important;
+}
+#icon{
+  height:5em;
+  margin:0 auto;
+}
+#weatherApp-title {
+  font-family: 'Indie Flower';
+  text-align: center;
+  margin-top: 0.2em;
+  font-size: 4em;
+  color:white;
+}
+#clock {
+  font-family: 'Indie Flower';
+  text-align: center;
+  font-size: 4em;
+  color:white;
+}
+#currentCity{
+  font-family: 'Indie Flower';
+  text-align: center;
+  margin-top: 1em;
+  font-size: 2em;
+  color:white;
+}
+#weatherReadings{
+  font-family: 'Indie Flower';
+  text-align: center;
+  margin-top: 0.2em;
+  font-size: 2em;
+  color:white;
+}
+#temp{
+  font-family: 'Indie Flower';
+  text-align: center;
+  margin-top: 0.2em;
+  font-size: 2em;
+  color:white;
+  display:inline-block;
+}
+#unit{
+  font-family: 'Indie Flower';
+  text-align: center;
+  font-size: 2em;
+  color:white;
+  display:inline-block;
+
+}
+#tempUnitChange:hover{
+  text-decoration:none;
+}
+#changeWeather{
+  font-family: 'Indie Flower';
+  background-color: #ad8699 !important;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 1.5em;
+  color:white;
+  margin-top:0.2em; 
+}
+#changeWeather:focus{
+  outline:0;
+}
+#icon{
+  font-size: 1.5em;
+  color:white;
+  margin-top:0.2em; 
+}
